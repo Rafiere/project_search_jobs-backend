@@ -6,12 +6,13 @@
   "author": "Rafiere",
   "license": "MIT",
   "private": false,
-  "dependencies": {
-    "express": "^4.18.2",
-    "http-status-codes": "^2.2.0"
-  },
   "scripts": {
     "start": "ts-node-dev src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.2.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.15",
