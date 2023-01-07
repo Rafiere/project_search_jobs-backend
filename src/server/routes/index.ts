@@ -8,6 +8,10 @@ router.get("/", (req, res) => {
   res.status(StatusCodes.OK);
 });
 
-router.post("/persons", PersonController.create);
+router.post(
+  "/persons",
+  PersonController.createPersonValidator,
+  PersonController.create
+);
 
 export { router };
