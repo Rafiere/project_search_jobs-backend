@@ -1,7 +1,5 @@
 import { server } from "./server/server";
 
-const port = 3334;
-
-server.listen(port, () => {
-  console.log("Running...");
+server.listen(process.env.PORT || 3333, () => {
+  console.log(`Running at port ${process.env.PORT}`);
 });
