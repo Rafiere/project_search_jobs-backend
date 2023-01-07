@@ -5,3 +5,10 @@
 - TypeScript
 - ExpressJS
 - KnexJS
+- Yup
+
+## Tools:
+
+- ESLint
+- Yarn
+- Editor Config
